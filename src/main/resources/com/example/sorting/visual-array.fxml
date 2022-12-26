@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="184.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sorting.VisualArray">
+   <children>
+      <Label fx:id="sourceArray" layoutX="23.0" layoutY="29.0" text="Исходный массив" />
+      <Label fx:id="middleArray" layoutX="23.0" layoutY="64.0" text="Промежуточный массив" />
+      <Label fx:id="resultArray" layoutX="23.0" layoutY="99.0" text="Итоговый массив" />
+      <Text fx:id="firstArray" layoutX="179.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="466.13671875" />
+      <Text fx:id="secondArray" layoutX="179.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="466.13671875" />
+      <Text fx:id="thirdArray" layoutX="179.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="466.13671875" />
+      <Button fx:id="start" layoutX="315.0" layoutY="145.0" mnemonicParsing="false" onAction="#onStart" text="Начать" />
+   </children>
+</Pane>

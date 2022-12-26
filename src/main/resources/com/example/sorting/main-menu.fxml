@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sorting.MainWindow">
+   <children>
+      <Button fx:id="buttonSort" layoutX="83.0" layoutY="192.0" mnemonicParsing="false" onAction="#OnButtonSort" text="Сортировать" />
+      <Button fx:id="buttonMerge" layoutX="375.0" layoutY="146.0" mnemonicParsing="false" onAction="#OnButtonMerge" text="Слияния массивов" />
+      <CheckBox fx:id="secondMethod" layoutX="28.0" layoutY="171.0" mnemonicParsing="false" onAction="#OnSecondMethod" text="Пузырьковая сортировка" />
+      <CheckBox fx:id="firstMethod" layoutX="28.0" layoutY="150.0" mnemonicParsing="false" onAction="#OnFirstMethod" text="Сортировка простыми вставками" />
+      <TextField fx:id="FirstArray" layoutX="109.0" layoutY="65.0" prefHeight="25.0" prefWidth="161.0" />
+      <TextField fx:id="SecondArray" layoutX="109.0" layoutY="102.0" prefHeight="25.0" prefWidth="161.0" />
+      <Label layoutX="13.0" layoutY="69.0" text="Первый массив" />
+      <Label layoutX="14.0" layoutY="108.0" text="Второй массив" />
+      <Label layoutX="188.0" layoutY="14.0" text="Введите данные в массивы">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="TOP_CENTER" layoutX="316.0" layoutY="61.0" prefHeight="17.0" prefWidth="264.0" text="Результат слияние массивов" />
+      <TextField fx:id="resultArray" editable="false" layoutX="308.0" layoutY="104.0" prefHeight="25.0" prefWidth="279.0" />
+      <ImageView fx:id="firstImage" fitHeight="17.0" fitWidth="17.0" layoutX="275.0" layoutY="69.0" onMouseClicked="#onFirstVisual" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@606321.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="secondImage" fitHeight="17.0" fitWidth="17.0" layoutX="275.0" layoutY="106.0" onMouseClicked="#onSecondVisual" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@606321.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mergeImage" fitHeight="17.0" fitWidth="17.0" layoutX="504.0" layoutY="150.0" onMouseClicked="#onMergeVisual" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@606321.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

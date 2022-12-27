@@ -9,10 +9,16 @@
 # Тесты
 ### Для данного приложения было проведено модульное  тестирование, [подробнее...](https://github.com/facecontrol34/Sortingillustration/wiki/%238-%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
 ---
-# Использованиесредств
-### * [JavaFX](https://openjfx.io/) -  Создание фасада.
-### *  [Intellij IDEA](jetbrains.com/ru-ru/idea/) - Среда разработки.
-### *  [SceneBuilder](https://gluonhq.com/products/scene-builder/) - Для создания пользовательского интерфейса.
+# Использование средств
+* ### [JavaFX](https://openjfx.io/) - Создание фасада.
+* ### [IntellijIDEA]( jetbrains.com/ru-ru/idea/) - Среда разработки.
+* ### [SceneBuilder](https://gluonhq.com/products/scene-builder/) - Для создания пользовательского интерфейса.
 ---
 # Авторы
 ### Сделал всю работу Андрей [facecontrol34](https://github.com/facecontrol34).
+---
+# Использованные источники
+* ### [Руководство JavaFX](https://metanit.com/java/javafx).
+* ### [Руководство IntellijIDEA](https://www.jetbrains.com/ru-ru/idea/resources/).
+* ### [Руководство SceneBuilder](https://habr.com/ru/post/474982/).
+---

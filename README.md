@@ -9,4 +9,7 @@
 * [JUnit](https://junit.org/junit5/) - фреймворк для модульного тестирования.
 ## Авторы
 Всю работу сделал Андрей [facecontrol34](https://github.com/facecontrol34).
-##
+## Использованные источникик
+* [Руководство JavaFX](https://metanit.com/java/javafx/)
+* [Руководство IntelligIDEA](https://blog.jetbrains.com/ru/idea/2021/05/introducing-the-intellij-idea-guide/)
+* [JUnit тест пример](https://javastudy.ru/junit/junit-hello-world/)
